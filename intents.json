@@ -1,0 +1,143 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+
+    {
+    "tag": "items",
+      "patterns": [
+      "Which items do you have?",
+        "What kinds of items are there?",
+       "What do you sell?"
+     ],
+      "responses": [
+       "We sell coffee and tea",
+       "We have coffee and tea"
+     ]
+   },
+
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+
+    {
+      "tag": "anger",
+      "patterns": [
+        "How the fuck!",
+        "I want to fuck all of you",
+        "i will kick your ass",
+        "My blood is boiling"
+      ],
+      "responses": [
+        "U r angry nowwww ?",
+        "Baeeee, angry?? Calmdown"
+      ]
+    },
+        {
+      "tag": "fear",
+      "patterns": [
+        "I feel like I am drowning. #depression #anxiety #falure #worthless ",
+        "I get so nervous even thinking about talking to ****** I wanna die ",
+        "I lost my blinders .... #panic ",
+        "I feel like I am drowning. #depression #falure #worthless ",
+        "This is the scariest American Horror Story out of all of them... I'm gonna have to watch in the daytime. #frightened ",
+        "I nearly started crying and having a full on panic attack after tatinof bc of the crowds so I feel him ",
+        "I have to finally tell my therapist about my sexuality ... last frontier ... not sure I can do it in the AM #fear #SingleGirlProblems ",
+        "I don't think I've ever moved so fast in a panic in all my life ?? Gave me such a fright ?? ",
+        "My bus was in a car crash... I'm still shaking a bit... This week was an absolute horror and this was the icing on the cake... #terrible "
+      ],
+      "responses": [
+        "U r fear nowwww ?",
+        "Baeeee, fear?? Calmdown"
+      ]
+    },
+        {
+      "tag": "joy",
+      "patterns": [
+        "Just got back from seeing in Burslem. AMAZING!! Face still hurts from laughing so much #hilarious ",
+        "Oh dear an evening of absolute hilarity I don't think I have laughed so much in a long time! ?? ",
+        "Been waiting all week for this game ?????? #cheer #friday ?? ",
+        ": Thank you so much, Gloria! You're so sweet, and thoughtful! You just made my day more joyful! I love you too! ???? ",
+        "I feel so blessed to work with the family that I nanny for ?? nothing but love &amp; appreciation, makes me smile. ",
+        "Today I reached 1000 subscribers on YT!! , #goodday, #thankful ",
+        "Good morning, love! Happy first day of fall. Let's make some awesome #autumnmemories #annabailey #laughter #smile ",
+        "#BridgetJonesBaby is the best thing I've seen in ages! So funny, I've missed Bridget! #love #TeamMark ",
+        "Just got back from seeing in Burslem. AMAZING!! Face still hurts from laughing so much ",
+        "I thought the holidays could not get any more cheerful, and then I met you. #TheNiceBot ",
+        "I'm just still . So happy .nA blast ",
+        "It's meant to be!! #happy #happy ",
+        "????Yeah?? PAUL?????? #glorious #BB18 ",
+        "My morning started off amazing!! Hopefully the whole day is going as i want it to go!n #GreatDay ",
+        "?? you've had me ?? ?? the whole time watching after you've lost your #glasses! It was #hilarious! "
+      ],
+      "responses": [
+        "U r joyful nowwww ?",
+        "Baeeee, so joyful?? haha"
+      ]
+    },
+
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?"
+      ],
+      "responses": [
+        "Delivery takes 2-4 days",
+        "Shipping takes 2-4 days"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    }
+  ]
+}
